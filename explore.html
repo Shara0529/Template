@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel partner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<style>
+
+*{
+    font-family:'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+   
+}
+body{
+    background-image: url(img/c3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 130px;
+   
+}
+
+.image-container {
+    position: relative;
+    flex: 1 1 22%; 
+    min-width: 250px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.image-container img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    pointer-events: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.image-container:hover .hover-text {
+    opacity: 1;
+    background: linear-gradient(to bottom, rgba(4, 75, 65, 0.5), rgb(5, 99, 75));
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; 
+    }
+
+    .image-container {
+        flex: 1 1 45%; 
+        min-width: 150px;
+       
+    }
+    .image {
+        justify-content: center; 
+    }
+    .close-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: transparent;
+            border: none;
+            font-size: 80px;
+            font-weight: bold;
+            cursor: pointer;
+            color:white;
+        }
+        .close-icon:hover {
+            color: #dd0b0b;
+        }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .image-container {
+
+        flex: 1 1 100%; 
+       
+    }
+}
+.close-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: transparent;
+            border: none;
+            font-size: 80px;
+            font-weight: bold;
+            cursor: pointer;
+            color:white;
+        }
+        .close-icon:hover {
+            color: #dd0b0b;
+        }
+
+</style>
+</head>
+<body>
+    <div class="close-icon" onclick="closePage();">&times;</div>
+    <br><br><br>
+<div class="image">
+            <br><br><br><br><br><br>
+                <div class="image-container">
+                    <img src="img/b1.webp" alt="">
+                    <div class="hover-text">Paris in France</div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b5.webp" alt="">
+                    <div class="hover-text"> New York City in United States </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b3.webp" alt="">
+                    <div class="hover-text">London in United Kingdom</div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b2.webp" alt="">
+                    <div class="hover-text">Rome in Italy </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b4.webp" alt="">
+                    <div class="hover-text">Forbidden City in China</div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b7.webp" alt="">
+                    <div class="hover-text">Toronto in Canada </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b12.webp" alt="">
+                    <div class="hover-text">Sigiriya in Srilanka </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b15.webp" alt="">
+                    <div class="hover-text">Taj Mahal in India </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b16.webp" alt="">
+                    <div class="hover-text">The Jungfraujoch in Switzerland </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/ii1.jpeg" alt="">
+                    <div class="hover-text">Petronas Twin Towers in Malaysia </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b20.webp" alt="">
+                    <div class="hover-text">Sydney Opera House in Australia </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/b21.webp" alt="">
+                    <div class="hover-text">Cologne Cathedral in Germany </div>
+                </div>
+               
+            </div>
+            <script>
+                function closePage() {
+                    window.location.href = 'home.html';  
+                    window.close(); 
+                }
+            </script>
+</body>
+</html>
