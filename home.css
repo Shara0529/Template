@@ -320,7 +320,7 @@ section{
           
 
   .home {
-                background-image: url(img/h10.jpg);
+                background-image: url(h10.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 display: flex;
@@ -400,7 +400,7 @@ section{
         }
         .home1{
            
-            background-image: url(img/aa3.webp);
+            background-image: url(aa3.webp);
             background-repeat: no-repeat;
             background-size: cover;
         
@@ -495,7 +495,7 @@ section{
 
 
 .home3{
-   background-image: url(img/aa1.webp);
+   background-image: url(aa1.webp);
    background-repeat: no-repeat;
    background-size: cover;
     display: flex;
@@ -689,7 +689,7 @@ section{
     
 
 .home4{
-    background-image: url(img/ab.webp);
+    background-image: url(ab.webp);
    background-repeat: no-repeat;
    background-size: cover;
   
@@ -805,7 +805,7 @@ section{
 
 .home5 {
     background: rgb(151, 204, 237);
-    background-image: url(img/h4.webp);
+    background-image: url(h4.webp);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh; 
@@ -943,7 +943,7 @@ h1 {
 .home6{
    
     background:#7cddd8;
-    background-image: url(img/i11.webp);
+    background-image: url(i11.webp);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1038,7 +1038,7 @@ h1 {
 
 .footer{
     background: #4cceda;
-    background-image: url(img/foo2.webp);
+    background-image: url(foo2.webp);
     background-size: cover;
    
     
@@ -1404,7 +1404,7 @@ body {
         }
  
 .home {
-                background-image: url(img/h10.webp);
+                background-image: url(h10.webp);
                 background-repeat: no-repeat;
                 background-size: cover;
                 display: flex;
@@ -1527,7 +1527,7 @@ body {
     right: 730px; 
     width: 40px;
     height: 40px;
-    background: url('img/half.png') no-repeat center;
+    background: url('half.png') no-repeat center;
     background-size: contain;
     animation: rotate-scale 2s infinite ease-in-out; 
 }
@@ -1627,7 +1627,7 @@ body {
 }
 .home1{
            
-           background-image: url(img/aa3.webp);
+           background-image: url(aa3.webp);
            background-repeat: no-repeat;
            background-size: cover;
        
@@ -1788,7 +1788,7 @@ body {
     right: 520px; 
     width: 300px;
     height: 300px;
-    background: url('img/arrow.png') no-repeat center; 
+    background: url('arrow.png') no-repeat center; 
     background-size: contain;
     animation: rotate-scale 2s infinite ease-in-out;
 }
@@ -1824,7 +1824,7 @@ body {
     right: 100px;
     width: 40px;
     height: 40px;
-    background: url('img/search.png') no-repeat center; 
+    background: url('search.png') no-repeat center; 
     background-size: contain;
     animation: rotate-scale 2s infinite ease-in-out; 
 }
@@ -1860,7 +1860,7 @@ body {
     right: 100px; 
     width: 80px;
     height: 80px;
-    background: url('img/airplane.png') no-repeat center; 
+    background: url('airplane.png') no-repeat center; 
     background-size: contain;
     animation: rotate-scale 2s infinite ease-in-out; 
 }
@@ -1930,7 +1930,7 @@ body {
     right: 320px; 
     width: 150px;
     height: 150px;
-    background-image: url('img/earth.png'); 
+    background-image: url('earth.png'); 
     background-size: cover;
     border-radius: 50%; 
     animation: spin 3s linear infinite;
